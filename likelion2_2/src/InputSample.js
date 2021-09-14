@@ -46,4 +46,4 @@ function InputSample(){
     );
 }
 
-export default InputSample;
+export default InputSample;   
