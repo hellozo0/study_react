@@ -4,7 +4,7 @@ import CreateUser from './CreateUser';
 import UserList from './UserList';
 import useInputs from './hooks/useInputs';
 import produce from 'immer';
-
+ 
 
 function countActiveUsers(users){
   console.log('활성 사용자 수를 세는 중 ...');
@@ -171,7 +171,7 @@ function App() {
     username: '',
     email: ''
   });
-
+ 
   const [state, dispatch] = useReducer(reducer, initialState);
   // const {users} = state;
   // const {username, email} = state.inputs;
